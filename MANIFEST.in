@@ -1,0 +1,3 @@
+graft ada
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  ada/jupy *
