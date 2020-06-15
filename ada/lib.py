@@ -47,6 +47,8 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    print('Ada Lovelace was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine.')
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
